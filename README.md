@@ -9,6 +9,8 @@ Imagine for a second a traveler making a reservation via a large booking site, t
 OK! Lets begin with getting ourselves setup with Facebook Messenger channel before we send our first message.  We'll guide you each step of the way.
 
 >
+>
 >1. If you haven't already, sign up for a personal Facebook account.  Done?
 >2. Good, now lets get you setup with a Facebook Developer account and setup Messenger
+>
 >
