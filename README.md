@@ -10,5 +10,5 @@ OK! Lets begin with getting ourselves setup with Facebook Messenger and then sen
 
 >
 >1. If you haven't already, sign up for a personal Facebook account.  Done?
->2. Good, now lets get you setup with a [Facebook Developer account and configure FB Messenger](https://developers.facebook.com/products/messenger/).
+>2. Good, now lets get you setup with a Facebook Developer account and setup Messenger
 >
