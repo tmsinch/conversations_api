@@ -5,9 +5,11 @@ In this quick start guide we will show you how to create and configure a basic F
 ### Sign up for an FB Developer Account or Sign In and Create your Messenger App
 To register for an FB Developer account go to **[Facebook Developer Account](https://developers.facebook.com)** and click **"Get Started"** on the upper right menu.
 
+>
 > 
 > If you have an existing FB Developer Account and an FB App, sign in and skip to adding and configuring Messenger.
-> 
+>
+>
 
 **INSERT PICTURE 1 - FB Developer Registration**
 
@@ -15,9 +17,11 @@ Once you have created your Facebook developer account you can choose to **"Creat
 
 **INSERT PICTURE 2 - FB Messenger Create App**
 
+>
 > 
 >You should see an *APP ID* displayed at the top of your FB Developer Dashboard.
-> 
+>
+>
 
 ### Add Messenger Product to your FB App
 From your FB Developer Dashboard, under *Add Product*, click on Messenger **"Setup"** button.
