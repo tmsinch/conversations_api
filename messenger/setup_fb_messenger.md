@@ -1,6 +1,6 @@
 
 # Setup an FB App with Messenger Chat
-In this quick start guide we will show you how to create and configure a basic FB Business Page with Messenger chat feature.  Once you complete the steps below you will have an FB Business Page with Messenger Chat button, a Messenger Token, and a configured Messenger Webhook to use with the Sinch Conversations API.
+In this quick start guide we will show you how to create and configure a basic FB Business Page with Messenger chat feature.  Once you complete the steps below you will have an FB App, FB Business Page with Messenger Chat button, a Messenger Token, and a configured Messenger Webhook to use with the Sinch Conversations API.
 
 ### Sign up for an FB Developer Account or Sign In and Create your Messenger App
 To register for an FB Developer account go to [Facebook Developer Account](https://developers.facebook.com) and click **"Get Started"** on the upper right menu.
@@ -35,10 +35,11 @@ Next choose to create a **"Business or Brand"** and fill out the ensuing form.
 
 You can choose to **"Skip"** adding 'Profile' and 'Background' pictures as well as 'Add online booking'.  You have now completed creating your Facebook Business Page.  
 
-```
-Make sure to bookmark your FB Business Page , we will return to it later to add a Messenger chat button.
-```
 **INSERT PICTURE 6 - Facebook Business Page**
+
+```
+**NOTE:**  Make sure to bookmark your FB Business Page , we will return to it later to add a Messenger chat button.
+```
 
 ### Generate your Messenger App Token and Configure the Webhook
 Steps and images here
