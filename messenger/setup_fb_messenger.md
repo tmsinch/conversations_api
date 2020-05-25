@@ -1,11 +1,26 @@
 
-# Setup an FB Messger App
-In this guide we will show you how to setup a basic FB Messenger App, generate a Messenger Token, and configure a Messenger Webhook to use with Sinch Conversations API.
+# Setup an FB Messenger App
+In this guide we will show you how to create and configure a basic FB App with Messenger.  Once you complete the steps below you will have an FB Business Page, a Messenger Token, and a configured Messenger Webhook to use with Sinch Conversations API.
 
-### Sign up for an FB Developer Account
-Steps and images here
+### Sign up for an FB Developer Account and Create your Messenger App
+If you haven't already done so, register for a [Facebook Developer Account](https://developers.facebook.com/products/messenger) by clicking **Get Started** on the upper right menu.
 
-### Create your Messenger App & Setup an FB Business Page
+**INSERT PICTURE 1 - FB Developer Registration**
+
+Once you have created your Facebook developer account you can choose to **Create First App**
+
+**INSERT PICTURE 2 - FB Messenger Create App**
+
+>
+>You should see an *APP ID* displayed at the top of your FB Developer Dashboard.
+>
+
+### Add Messenger Product to your FB App
+From your FB Developer Dashboard, under *Add Product*, click on Messenger **Setup** button.
+
+**INSERT PICTURE 3 - FB Dashboard - Setup Messenger**
+
+### Create an FB Business Page
 Steps and images here
 
 ### Generate your Messenger App Token and Configure the Webhook
