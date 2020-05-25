@@ -1,17 +1,17 @@
 
-# Setup an FB Messenger App
-In this quick start guide we will show you how to create and configure a basic FB App with Messenger to test and develop with.  Once you complete the steps below you will have an FB Business Page with Messenger Chat button, a Messenger Token, and a configured Messenger Webhook to use with Sinch Conversations API.
+# Setup an FB App with Messenger Chat
+In this quick start guide we will show you how to create and configure a basic FB Business Page with Messenger chat feature.  Once you complete the steps below you will have an FB Business Page with Messenger Chat button, a Messenger Token, and a configured Messenger Webhook to use with the Sinch Conversations API.
 
 ### Sign up for an FB Developer Account or Sign In and Create your Messenger App
-To register for an FB Developer account go to [Facebook Developer Account](https://developers.facebook.com) and click **Get Started** on the upper right menu.
+To register for an FB Developer account go to [Facebook Developer Account](https://developers.facebook.com) and click **"Get Started"** on the upper right menu.
 
 >
-> If you have an existing FB Developer Account and an FB App, skip to adding and configuring Messenger.
+> If you have an existing FB Developer Account and an FB App, sign in and skip to adding and configuring Messenger.
 >
 
 **INSERT PICTURE 1 - FB Developer Registration**
 
-Once you have created your Facebook developer account you can choose to **Create First App**
+Once you have created your Facebook developer account you can choose to **"Create First App"**
 
 **INSERT PICTURE 2 - FB Messenger Create App**
 
@@ -20,12 +20,25 @@ Once you have created your Facebook developer account you can choose to **Create
 >
 
 ### Add Messenger Product to your FB App
-From your FB Developer Dashboard, under *Add Product*, click on Messenger **Setup** button.
+From your FB Developer Dashboard, under *Add Product*, click on Messenger **"Setup"** button.
 
 **INSERT PICTURE 3 - FB Dashboard - Setup Messenger**
 
 ### Create an FB Business Page
-Steps and images here
+Now that you have added Messenger Product to your FB App we can build your first FB Business Page.  Within your Dasboard under Products > Messenger > Settings page scroll down to **Access Tokens** and click **"Create New Page"** on the right.
+
+**INSERT PICTURE 4 - Messenger - Access Tokens - Create New Page**
+
+Next choose to create a **"Business or Brand"** and fill out the ensuing form.
+
+**INSERT PICTURE 5 - Business or Brand**
+
+You can choose to **"Skip"** adding 'Profile' and 'Background' pictures as well as 'Add online booking'.  You have now completed creating your Facebook Business Page.  
+
+```
+Make sure to bookmark your FB Business Page , we will return to it later to add a Messenger chat button.
+```
+**INSERT PICTURE 6 - Facebook Business Page**
 
 ### Generate your Messenger App Token and Configure the Webhook
 Steps and images here
