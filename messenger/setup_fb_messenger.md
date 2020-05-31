@@ -28,7 +28,7 @@ From your FB Developer Dashboard, under *Add Product*, click on Messenger **"Set
 <img src="./img/fb_app_dashboard.png" width="75%" border="1">
 
 ### Create an FB Business Page
-Now that you have added Messenger Product to your FB App we can build your first FB Business Page.  Within your Dasboard under Products > Messenger > Settings page scroll down to **Access Tokens** and click **"Create New Page"** on the right.
+Now that you have added Messenger Product to your FB App we can build your first FB Business Page.  Within your Dasboard under Products > Messenger > Settings page scroll down to **Access Tokens** and click **"Create New Page"** on the upper right.
 
 <img src="./img/fb_create_new_page.png" width="75%" border="1">
 
@@ -46,11 +46,27 @@ You can choose to **"Skip"** adding 'Profile' and 'Background' pictures as well 
 
 
 
-### Generate your Messenger App Token and Configure the Webhook
-Steps and images here
+### Generate your Messenger API Token
+To generate your Messenger API Token we'll need to add the new FB Page you created to the Messenger product settings.  Under Within your Dasboard under Products > Messenger > Settings page scroll down to **Access Tokens** and this type choose to **"Add or Remove Pages"**.
+
+<img src="./img/fb_add_remove_page.png" width="40%">
+
+Now follow the prompts and choose the new FB Page you just created.  Make sure that you leave default setting **Manage and access Page converations in Messenger** set to YES.
+
+<img src="./img/fb_manage_and_access_conversations.png" width="40%">
+
+You will now see your FB Page listed under **Access Tokens**, click on the **"Generate Token"** button.
+
+>
+>Copy and store your Messenger Token somewhere safe, we will need to add the Messenger Channel to your **Sinch Conversations App**.
+>
+
+<img src="./img/fb_generate_messenger_token.png" width="75%">
 
 ### Add a Messenger Chat Button to your FB Business Page
 Steps and images here
+
+### Configure the Messenger Webhook
 
 ### Configure your FB Messegner Channel on Sinch Conversations API
 Steps and images here
