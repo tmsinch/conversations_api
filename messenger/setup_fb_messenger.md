@@ -163,7 +163,7 @@ Enter a message into the **Messenger** chat window and **Send**.
 <img src="./img/fb_page_messenger_pop_up.png" width="35%">
 </p>
 
-Use **Sinch Conversations API** to **List Contacts**, you should now see a new contact entry generated when a **Messenger Message** was posted from your FB Page.
+Use **Sinch Conversations API** to **List Contacts**, you should now see a new contact entry generated when the **Messenger Message** was posted from your FB Page.
 
 ```
 {
