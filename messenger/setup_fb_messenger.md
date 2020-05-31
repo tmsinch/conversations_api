@@ -166,7 +166,57 @@ OK, we are ready for some action!  Visit your FB Page, click on **"Send Message"
 Enter a message into the **Messenger** chat window and **Send**.
 
 <p align="center">
-<img src="./img/fb_page_messenger_pop_up.png" width="50%">
+<img src="./img/fb_page_messenger_pop_up.png" width="35%">
 </p>
+
+Use **Sinch Conversations API** to **List Contacts**, you should now see a new contact entry generated when a **Messenger Message** was posted from your FB Page.
+
+```
+{
+    "contacts": [
+        {
+            "id": "J69H07BDS8G11RDF01E96CW660",
+            "channel_identities": [
+                {
+                    "channel": "MESSENGER",
+                    "channel_recipient_identity": "7746490198930851",
+                    "app_id": "3FDS0PWWERGN1QX101E75WGS3Y"
+                }
+            ],
+            "channel_priority": [
+                "MESSENGER",
+            ],
+            "display_name": "",
+            "email": "",
+            "external_id": "",
+            "metadata": ""
+        }
+    ],
+    "next_page_token": ""
+    
+```
+
+Use your newly created Sinch **Contact** to send a **Text Message** response using the **message:send** function.
+
+```
+
+{
+    "app_id": "{{YOUR_SINCH_APP_ID}}",
+    "recipient": {
+    	"contact_id": "{{YOUR_SINCH_CONTACT_ID}}"
+    },
+    "message": {
+        "text_message": {
+            "text": "Hello, thank you for your inquiry, how can we help?"
+        }
+    },
+    "channel_priority_order": [
+        "MESSENGER"
+    ]
+}
+
+```
+
+**ALRIGHT!!  CONGRATULATIONS**, you have just sent your first Sinch Conversations Messenger Message!
 
 
