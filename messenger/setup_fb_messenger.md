@@ -140,7 +140,7 @@ Then add the following **Callback URL** and **Verify Token**:
 <img src="./img/fb_messenger_edit_webhook.png" width="50%">
 </p>
 
-To complete your **Webhooks** configuration click on **"Add Subscriptions"**.  Choose **"messages"** and **"message_deliveries"** fields and click on **"Save"**.
+To complete your **Webhooks** configuration click on **"Add Subscriptions"**.  Select **"messages"** and **"message_deliveries"** fields and click on **"Save"**.
 
 <p align="center">
 <img src="./img/fp_messenger_webhook_subscriptions.png" width="60%">
