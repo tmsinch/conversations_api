@@ -122,11 +122,9 @@ Then add the following **Callback URL** and **Verify Token**:
 <img src="./img/fb_messenger_edit_webhook.png" width="50%">
 </p>
 
-To complete the **Webhook** configuration for Messenger you must click on **"Add Subscriptions"**.
 
-<p align="center">
 <img="./img/fp_messenger_webhook_subscriptions.png" width="50%">
-</p>
+
 
 Great!  We are close to done now.  Just a couple of more steps.
 
