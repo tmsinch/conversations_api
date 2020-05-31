@@ -11,6 +11,6 @@ OK! Lets begin with getting ourselves setup with Facebook Messenger channel befo
 >
 >
 >1. If you haven't already, sign up for a personal Facebook account.  Done?
->2. Good, now lets get you setup with a [Facebook Developer account and setup Messenger](https://developers.sinch.com/setup_messenger).
+>2. Good, now lets get you setup with a [Facebook Developer account and setup Messenger](./messenger/setup_fb_messenger.md).
 >
 >
