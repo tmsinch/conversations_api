@@ -14,18 +14,18 @@ To register for an FB Developer account go to **[Facebook Developer Account](htt
 
 Once you have created your Facebook developer account you can choose to **"Create First App"**
 
-**INSERT PICTURE 2 - FB Messenger Create App**
+![](./img/fb_create_first_app.png)
 
->
+
 > 
->You should see an *APP ID* displayed at the top of your FB Developer Dashboard.
+>Your new *APP ID* will be displayed at the top left of your FB App Dashboard.
 >
->
+
 
 ### Add Messenger Product to your FB App
 From your FB Developer Dashboard, under *Add Product*, click on Messenger **"Setup"** button.
 
-**INSERT PICTURE 3 - FB Dashboard - Setup Messenger**
+![](./img/fb_app_dashboard.png)
 
 ### Create an FB Business Page
 Now that you have added Messenger Product to your FB App we can build your first FB Business Page.  Within your Dasboard under Products > Messenger > Settings page scroll down to **Access Tokens** and click **"Create New Page"** on the right.
