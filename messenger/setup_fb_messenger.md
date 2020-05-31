@@ -78,6 +78,24 @@ You will should see your FB Page listed under **Access Tokens**, click on the **
 <img src="./img/fb_generate_messenger_token.png" width="75%">
 </p>
 
+### Configure your FB Messegner Channel on Sinch Conversations API
+
+Create and send a POST to **Patch** your Sinch Conversations App with the newly created **Messenger Token**, this will allow Sinch Conversations to respond to inbound messages posted via your FB Page **"Send a Message"** button.
+
+```
+{
+    "channel_credentials": [
+        
+        {
+            "channel": "MESSENGER",
+            "static_token": {
+                "claimed_identity": "{{YOUR_FB_APP_NAME}}",
+                "token": "{{YOUR_FB_PAGE_MESSENGER_TOKEN}}"
+            }
+        }
+    ]
+}
+```
 
 ### Add a Messenger Chat Button to your FB Business Page
 
@@ -122,14 +140,20 @@ Then add the following **Callback URL** and **Verify Token**:
 <img src="./img/fb_messenger_edit_webhook.png" width="50%">
 </p>
 
+To complete your **Webhooks** configuration click on **"Add Subscriptions"**.
 
-<img="./img/fp_messenger_webhook_subscriptions.png" width="50%">
+<p aling="center">
+<img="./img/fb_messenger_webhook_subscriptions.png" width="50%">
+</p>
 
+Choose **"messages"** and **"message_deliveries"** fields and click on **"Save"**.
 
-Great!  We are close to done now.  Just a couple of more steps.
+<p align="center">
+<img src="./img/fb_messenger_webhooks_edit_subscriptions.png" width="50%">
+</p>
 
-### Configure your FB Messegner Channel on Sinch Conversations API
-Steps and images here
+Great!  We are almost there.  Just a couple of more steps.
+
 
 ### Initiate an FB Messenger Chat and Respond with Sinch Conversations API
 Steps and images here
