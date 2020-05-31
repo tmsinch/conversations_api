@@ -14,7 +14,7 @@ To register for an FB Developer account go to **[Facebook Developer Account](htt
 
 Once you have created your Facebook developer account you can choose to **"Create First App"**
 
-![](./img/fb_create_first_app.png)
+![](./img/fb_create_first_app.png) ![](./img/fb_create_app_form.png)
 
 
 > 
