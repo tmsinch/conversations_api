@@ -25,24 +25,26 @@ Once you have created your Facebook developer account you can choose to **"Creat
 ### Add Messenger Product to your FB App
 From your FB Developer Dashboard, under *Add Product*, click on Messenger **"Setup"** button.
 
-<center> <img src="./img/fb_app_dashboard.png" width="75%" border="1"></center>
+<img src="./img/fb_app_dashboard.png" width="75%" border="1">
 
 ### Create an FB Business Page
 Now that you have added Messenger Product to your FB App we can build your first FB Business Page.  Within your Dasboard under Products > Messenger > Settings page scroll down to **Access Tokens** and click **"Create New Page"** on the right.
 
-**INSERT PICTURE 4 - Messenger - Access Tokens - Create New Page**
+<img src="./img/fb_create_new_page.png" width="75%" border="1">
 
 Next choose to create a **"Business or Brand"** and fill out the ensuing page name and contact form.
 
-**INSERT PICTURE 5 - Business or Brand**
+<img src="./img/fb_create_business_page.png" width="35%">
 
 You can choose to **"Skip"** adding 'Profile' and 'Background' pictures as well as **"Not Now"** for the option to 'Add online booking'.  You have now completed creating your Facebook Business Page.  Remember while your FB App is 'In development' the FB Business Page is not visible to anyone except you and other developers you invite to your FB developer account.
-
-**INSERT PICTURE 6 - Facebook Business Page**
 
 >
 >Make sure to bookmark your FB Business Page , we will return to it later to add a Messenger chat button.
 >
+
+<img src="./img/fb_business_page.png" width="75%">
+
+
 
 ### Generate your Messenger App Token and Configure the Webhook
 Steps and images here
