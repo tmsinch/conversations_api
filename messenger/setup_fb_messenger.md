@@ -6,7 +6,7 @@ In this quick start guide we will show you how to create and configure a basic F
 To register for an FB Developer account go to **[Facebook Developer Account](https://developers.facebook.com)** and click **"Get Started"** on the upper right menu.
 
 
-<kbd><img src="./img/fb_for_developers.png" width="75%" border="1" /></kbd>
+<img width="75%"><img src="./img/fb_for_developers.png" width="75%"  style="border:1px;" />
 
 > 
 > If you have an existing FB Developer Account and an FB App, log in and skip to adding and configuring Messenger.
@@ -14,7 +14,7 @@ To register for an FB Developer account go to **[Facebook Developer Account](htt
 
 Once you have created your Facebook developer account you can choose to **"Create First App"**
 
-<kbd><img src="./img/fb_create_first_app.png" width="35%" border="1" /> <img src="./img/fb_create_app_form.png" width="35%" border="1" /></kbd>
+<kbd><img src="./img/fb_create_first_app.png" width="35%" border="1" /><img src="./img/fb_create_app_form.png" width="35%" border="1" /></kbd>
 
 
 > 
