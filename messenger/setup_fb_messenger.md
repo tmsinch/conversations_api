@@ -81,13 +81,13 @@ You will should see your FB Page listed under **Access Tokens**, click on the **
 
 ### Add a Messenger Chat Button to your FB Business Page
 
-Lets return to your FB Page and add a Messenger button. Click on **"+ Add Button"** and choose to Send Message.
+Lets return to your FB Page and add a Messenger button. Click on **"+ Add Button"**.
 
 <p align="center">
 <img src="./img/fb_page_add_button.png" width="50%">
 </p>
   
-Click **"Next"**.
+Choose **Send Message** and click **"Next"**.
   
   <p align="center">
   <img src="./img/fb_add_send_message_button.png" width="50%">
@@ -122,9 +122,11 @@ Then add the following **Callback URL** and **Verify Token**:
 <img src="./img/fb_messenger_edit_webhook.png" width="50%">
 </p>
 
-
 To complete the **Webhook** configuration for Messenger you must click on **"Add Subscriptions"**.
 
+<p align="center">
+<img="./img/fp_messenger_webhook_subscriptions.png" width="50%">
+</p>
 
 Great!  We are close to done now.  Just a couple of more steps.
 
