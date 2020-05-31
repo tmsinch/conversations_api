@@ -80,7 +80,7 @@ You will should see your FB Page listed under **Access Tokens**, click on the **
 
 ### Configure your FB Messegner Channel on Sinch Conversations API
 
-Create and send a POST to **Patch** your Sinch Conversations App with the newly created **Messenger Token**, this will allow Sinch Conversations to respond to inbound messages posted via your FB Page **"Send a Message"** button.
+Create and send a POST to **Patch** your Sinch Conversations App with the newly created **Messenger Token**, this will allow Sinch Conversations App to respond to inbound messages posted by visitors of your FB Page.
 
 ```
 {
@@ -156,5 +156,17 @@ Great!  We are almost there.  Just a couple of more steps.
 
 
 ### Initiate an FB Messenger Chat and Respond with Sinch Conversations API
-Steps and images here
+
+OK, we are ready for some action!  Visit your FB Page, click on **"Send Message"** and choose **"Test Button"**.
+
+<p align="center">
+<img src="./img/fb_page_test_send_message_button.png" width="75%">
+</p>
+
+Enter a message into the **Messenger** chat window and **Send**.
+
+<p align="center">
+<img src="./img/fb_page_messenger_pop_up.png" width="50%">
+</p>
+
 
