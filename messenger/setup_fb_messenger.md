@@ -6,7 +6,7 @@ In this quick start guide we will show you how to create and configure a basic F
 To register for an FB Developer account go to **[Facebook Developer Account](https://developers.facebook.com)** and click **"Get Started"** on the upper right menu.
 
 
-![FB for Developers](https://github.com/tmsinch/conversations_api/blob/master/messenger/img/fb_for_developers.png)
+[[./img/fb_for_developers.png]]
 
 > 
 > If you have an existing FB Developer Account and an FB App, log in and skip to adding and configuring Messenger.
