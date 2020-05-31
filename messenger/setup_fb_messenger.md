@@ -149,7 +149,7 @@ To complete your **Webhooks** configuration click on **"Add Subscriptions"**.
 Choose **"messages"** and **"message_deliveries"** fields and click on **"Save"**.
 
 <p align="center">
-<img src="./img/fb_messenger_webhooks_edit_subscriptions.png" width="50%">
+<img src="./img/fp_messenger_webhook_subscriptions.png" width="50%">
 </p>
 
 Great!  We are almost there.  Just a couple of more steps.
