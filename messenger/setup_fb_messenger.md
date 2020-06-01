@@ -82,7 +82,7 @@ You will should see your FB Page listed under **Access Tokens**, click on the **
 
 Create and send a POST to **Patch** your Sinch Conversations App with the newly created **Messenger Token**, this will allow Sinch Conversations App to respond to inbound messages posted by visitors of your FB Page.
 
-```
+```javascript
 {
     "channel_credentials": [
         
@@ -95,6 +95,9 @@ Create and send a POST to **Patch** your Sinch Conversations App with the newly 
         }
     ]
 }
+```
+```javascript
+some code here
 ```
 
 ### Add a Messenger Chat Button to your FB Business Page
