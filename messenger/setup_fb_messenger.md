@@ -208,7 +208,7 @@ curl --location --request POST 'https://api.conversation-api.prod.sinch.com/v1be
     },
     "message": {
         "text_message": {
-            "text": "Hello, thank you for your inquiry, how can we help?"
+            "text": "Greetings from Sinch Conversation API!"
         }
     },
     "channel_priority_order": [
@@ -227,13 +227,23 @@ public static void main(String[] args) {
 
     // Send Text Message
     MessageResponse messageResponse =
-        messageApi.sendTextMessage("your_contact_id", "Hello world");
+        messageApi.sendTextMessage("your_contact_id", "Greetings from Sinch Conversation API!");
 
     // Print out the Message id for the record
     System.out.println(messageResponse.getMessageId());
 }
 ```
 
+<p align="center">
+<img src="./img/fb_message_text.jpg" width="75%">
+</p>
+
 **ALRIGHT!!  CONGRATULATIONS**, you have just sent your first Sinch Conversations Messenger Message!
 
+>
+>
+>1. Learn how to receive messages 
+>2. Want more? [Advance messages for facebook messenger](./advance_messages_fb.md).
+>
+>
 
