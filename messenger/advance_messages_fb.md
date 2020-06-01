@@ -32,7 +32,7 @@ curl --location --request POST 'https://api.conversation-api.prod.sinch.com/v1be
 ```
 
 <p align="center">
-<img src="./img/fb_message_media.jpg" width="50%">
+<img src="./img/fb_message_media.jpg" width="50%" height="50%">
 </p>
 
 ## Sending Choice Message
@@ -90,7 +90,7 @@ curl --location --request POST 'https://api.conversation-api.prod.sinch.com/v1be
 }'
 ```
 <p align="center">
-<img src="./img/fb_message_choice.jpg" width="50%">
+<img src="./img/fb_message_choice.jpg" width="50%" height="50%">
 </p>
 
 
@@ -150,7 +150,7 @@ curl --location --request POST 'https://api.conversation-api.prod.sinch.com/v1be
 }'
 ```
 <p align="center">
-<img src="./img/fb_message_card.jpg" width="50%">
+<img src="./img/fb_message_card.jpg" width="50%" height="50%">
 </p>
 
 ## Sending Carousel Message
@@ -249,7 +249,7 @@ curl --location --request POST 'https://api.conversation-api.prod.sinch.com/v1be
 }'
 ```
 <p align="center">
-<img src="./img/fb_message_carousel.jpg" width="50%">
+<img src="./img/fb_message_carousel.jpg" width="50%" height="50%">
 </p>
 
 ## Sending Location Message
@@ -280,5 +280,5 @@ curl --location --request POST 'https://api.conversation-api.prod.sinch.com/v1be
 ```
 
 <p align="center">
-<img src="./img/fb_message_location.jpg" width="50%">
+<img src="./img/fb_message_location.jpg" width="50%" height="50%">
 </p>
