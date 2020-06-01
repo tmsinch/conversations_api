@@ -1,15 +1,15 @@
 ---
-title: Advance Facebook messages
+title: Advance Facebook Messenger
 excerpt: >-
-    Learn and see how different messages render on Facebook Messenger
+    Learn and see how different kind of messages render on Facebook Messenger.
 hidden: true
 ---
 
 # Advance Facebook Messages
 
-In this blog, we will show you how you can send advance messages such as media, card, choice , and carousel messages using Conversation API. 
+In this blog, we will show you how you can send advance messages such as media, choice, card, carousel, and location messages using Conversation API. 
 
-## Sending Media Messages
+## Sending Media Message
 
 ```javascript
 curl --location --request POST 'https://api.conversation-api.prod.sinch.com/v1beta/accounts/{{YOUR_ACCOUNT_ID}}/messages:send' \
@@ -35,7 +35,7 @@ curl --location --request POST 'https://api.conversation-api.prod.sinch.com/v1be
 <img src="./img/fb_message_media.jpg" width="75%">
 </p>
 
-## Sending Choice Messages
+## Sending Choice Message
 
 ```javascript
 
@@ -94,7 +94,7 @@ curl --location --request POST 'https://api.conversation-api.prod.sinch.com/v1be
 </p>
 
 
-## Sending Card Messages
+## Sending Card Message
 
 ```javascript
 curl --location --request POST 'https://api.conversation-api.prod.sinch.com/v1beta/accounts/{{YOUR_ACCOUNT_ID}}/messages:send' \
