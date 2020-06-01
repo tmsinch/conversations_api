@@ -1,3 +1,9 @@
+---
+title: Conversation Getting Started
+excerpt: >-
+    Learn how to set up, send and receive messages using Conversation API.
+hidden: true
+---
 
 # Setup an FB App with Messenger Chat
 In this quick start guide we will show you how to create and configure a basic FB Business Page with Messenger chat feature.  Once you complete the steps below you will have an FB App, FB Business Page with Messenger Chat button, a Messenger Token, and a configured Messenger Webhook to use with the Sinch Conversations API.
@@ -56,13 +62,13 @@ You can choose to **"Skip"** adding 'Profile' and 'Background' pictures as well 
 
 
 ### Generate your Messenger API Token
-To generate your Messenger API Token we'll need to add the new FB Page you created to the Messenger product settings.  Under Within your Dasboard under Products > Messenger > Settings page scroll down to **Access Tokens** and this type choose to **"Add or Remove Pages"**.
+To generate your Messenger API Token we'll need to add the new FB Page you created to the Messenger product settings.  Under Within your Dashboard under Products > Messenger > Settings page scroll down to **Access Tokens** and this type choose to **"Add or Remove Pages"**.
 
 <p align="center">
 <img src="./img/fb_add_remove_page.png" width="40%">
 </p>
 
-Now follow the prompts and choose the new FB Page you just created.  Make sure that you leave default setting **Manage and access Page converations in Messenger** set to YES.
+Now follow the prompts and choose the new FB Page you just created.  Make sure that you leave default setting **Manage and access Page conversations in Messenger** set to YES.
 
 <p align="center">
 <img src="./img/fb_manage_and_access_conversations.png" width="40%">
@@ -78,14 +84,15 @@ You will should see your FB Page listed under **Access Tokens**, click on the **
 <img src="./img/fb_generate_messenger_token.png" width="75%">
 </p>
 
-### Configure your FB Messegner Channel on Sinch Conversations API
+### Configure your FB Messenger Channel on Sinch Conversations API
 
 Create and send a POST to **Patch** your Sinch Conversations App with the newly created **Messenger Token**, this will allow Sinch Conversations App to respond to inbound messages posted by visitors of your FB Page.
 
-```javascript
-{
+```javascript Curl
+curl --location --request POST 'https://api.conversation-api.prod.sinch.com/v1beta/accounts/{{YOUR_SINCH_ACCOUNT_ID}}/apps' \
+--header 'Content-Type: application/json' \
+--data-raw '{
     "channel_credentials": [
-        
         {
             "channel": "MESSENGER",
             "static_token": {
@@ -93,11 +100,9 @@ Create and send a POST to **Patch** your Sinch Conversations App with the newly 
                 "token": "{{YOUR_FB_PAGE_MESSENGER_TOKEN}}"
             }
         }
-    ]
-}
-```
-```javascript
-some code here
+    ],
+    "display_name": "Messages"
+}'
 ```
 
 ### Add a Messenger Chat Button to your FB Business Page
@@ -193,10 +198,11 @@ Use **Sinch Conversations API** to **List Contacts**, you should now see a new c
 
 Use your newly created Sinch **Contact** to send a **Text Message** response using the **message:send** function.
 
-```
-
-{
-    "app_id": "{{YOUR_SINCH_APP_ID}}",
+```javascript Curl
+curl --location --request POST 'https://api.conversation-api.prod.sinch.com/v1beta/accounts/{{YOUR_SINCH_ACCOUNT_ID}}/messages:send' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+	"app_id": "{{YOUR_SINCH_APP_ID}}",
     "recipient": {
     	"contact_id": "{{YOUR_SINCH_CONTACT_ID}}"
     },
@@ -208,8 +214,24 @@ Use your newly created Sinch **Contact** to send a **Text Message** response usi
     "channel_priority_order": [
         "MESSENGER"
     ]
-}
+}'
+```
+```javascript Java
+public static void main(String[] args) {
 
+    // Init the Sinch Api Client to hold the auth
+    SinchApiClient sinchApiClient = SinchApiClient.getDefaultConfig();
+
+    // Build the Message APi which holds all messages capabilities
+    MessageApi messageApi = new MessageApi(sinchApiClient);
+
+    // Send Text Message
+    MessageResponse messageResponse =
+        messageApi.sendTextMessage("your_contact_id", "Hello world");
+
+    // Print out the Message id for the record
+    System.out.println(messageResponse.getMessageId());
+}
 ```
 
 **ALRIGHT!!  CONGRATULATIONS**, you have just sent your first Sinch Conversations Messenger Message!
