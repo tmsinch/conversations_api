@@ -235,7 +235,7 @@ public static void main(String[] args) {
 ```
 
 <p align="center">
-<img src="./img/fb_message_text.jpg" width="50%" height="50%">
+<img src="./img/fb_message_text.jpg">
 </p>
 
 **ALRIGHT!!  CONGRATULATIONS**, you have just sent your first Sinch Conversations Messenger Message!
