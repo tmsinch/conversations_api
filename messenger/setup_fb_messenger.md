@@ -234,6 +234,16 @@ public static void main(String[] args) {
 }
 ```
 
+<p align="center">
+<img src="./img/fb_message_test.jpg" width="75%">
+</p>
+
 **ALRIGHT!!  CONGRATULATIONS**, you have just sent your first Sinch Conversations Messenger Message!
 
+>
+>
+>1. Learn how to receive messages 
+>2. Want more? [Advance messages for facebook messenger](./advance_messages_fb.md).
+>
+>
 
