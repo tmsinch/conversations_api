@@ -15,9 +15,10 @@ To register for an FB Developer account go to **[Facebook Developer Account](htt
 <p align="center">
 <img src="./img/fb_for_developers.png" width="75%" border="2px" />
 </p>
-> 
-> If you have an existing FB Developer Account and an FB App, log in and skip to adding and configuring Messenger.
->
+
+
+>If you have an existing FB Developer Account and an FB App, log in and skip to adding and configuring Messenger.
+
 
 Once you have created your Facebook developer account you can choose to **"Create First App"**
 
