@@ -62,7 +62,7 @@ You can choose to **"Skip"** adding 'Profile' and 'Background' pictures as well 
 
 
 ### Generate your Messenger API Token
-To generate your Messenger API Token we'll need to add the new FB Page you created to the Messenger product settings.  Under Within your Dashboard under Products > Messenger > Settings page scroll down to **Access Tokens** and this type choose to **"Add or Remove Pages"**.
+To generate your Messenger API Token we'll need to add the new FB Page you created to the Messenger product settings.  Within your FB Developer Dashboard under Products > Messenger > Settings, scroll down to **Access Tokens** and choose **"Add or Remove Pages"**.
 
 <p align="center">
 <img src="./img/fb_add_remove_page.png" width="40%">
