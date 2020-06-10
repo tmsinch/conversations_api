@@ -58,9 +58,26 @@ Great, you are all set!  You can now use your backend to receive and trigger SMS
 
 
 ## Send an SMS Message to a Contact
-To send 
+To send an SMS message to a Contact via the Sinch Conversations API App send an HTTP POST with the following JSON:
+
+```
+Show how to send a text message to a contact via Conversations API
+```
+If you chose to receive *Delivery Receipts* via your Conversations API App webhook you may, depending on the target country or carrier of the message recepient, receive status and delivery receipt updates like the ones below.
+
+```
+Show status receipts here for SMS MT
+```
+```
+Show delivery receipts here for SMS MT
+```
+
 
 ## Receive an SMS Message from a User
+Below is an example of an inboud SMS text message posted to your backend system.
 
+```
+Show post payload from Converations API App to customer backend via the configured webhook
+```
 
 
