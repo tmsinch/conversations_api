@@ -12,22 +12,30 @@ If you are missing any of items 1-3 above you should begin by registering online
 ## Create a New Conversations App
 To create a new Conversations App simply sign in to your [*Sinch Dashboard account*](https://dashboard.sinch.com) and use the left hand navigation to access Conversations > Apps.
 
-IMAGE CONVERSATIONS > APPS HERE
+<p align="center">
+<img src="./img/sinch_conversations_apps.png" width="75%" border="2px" />
+</p>
 
 Click on the *New App* button on the right, "Name" your App and click *Create*.  You will be presented with a *New Token*, copy and store it somewhere safe, you will need it when using the Conversation API.
 
-IMAGE NEW TOKEN HERE
+<p align="center">
+<img src="./img/sinch_conversations_new_app_token.png" width="50%" border="2px" />
+</p>
 
 That's it, you have created a Sinch Conversations API App!
 
 ## Add SMS Channel to your Conversations App
 In your Sinch Dashboard navigate to Conversations > Apps.  Click on the *"App Name"* you wish to add the SMS Channel to.
 
-IMAGE OF CONVERSATIONS APPS HERE
+<p align="center">
+<img src="./img/sinch_conversations_apps_added.png" width="75%" border="2px" />
+</p>
 
 Under *Channels* click on *"Add Channel"*.  Use the drop down to select *"SMS"*, add your SMS *Service Plan ID* to the *"Sender ID"* field, and your SMS Service Plan *API Token* to the channel and click *"Save"*.
 
-IMAGE OF ADD CHANNEL WITH DROP DOWN HERE
+<p align="center">
+<img src="./img/sinch_conversations_apps_added.png" width="75%" border="2px" />
+</p>
 
 You have added an SMS Channel to your App.  Just a few more steps to go.
 
@@ -40,7 +48,9 @@ In order to forward end user text messages received by the Sinch *Conversation A
 
 From the drop down choose *"HTTP"*, add a URL endpoint for your backend, and choose one or more *Triggers* and click *"Create"*.
 
-IMAGE OF APP WEBHOOK TO DEVELOPER BACKEND HERE
+<p align="center">
+<img src="./img/sinch_conversations_app_webhook.png" width="75%" border="2px" />
+</p>
 
 ```
 Show code here on how to set a webhook for a Converations API App Webhook
@@ -50,9 +60,19 @@ Show code here on how to set a webhook for a Converations API App Webhook
 In your Conversation App page, scroll down to the *Inbound messages* section.  Notice there is a URL next to the *SMS Callback URL*, click *"Copy"*.
 
 
-IMAGE OF APP INBOUND MESSAGES CALLBACK URLS HERE
+<p align="center">
+<img src="./img/sinch_conversations_app_sms_inbound_mo_callback.png" width="50%" border="2px" />
+</p>
 
 Use the left hand navigation menu to back to SMS > APIs, click on the *"Service Plan ID"* you used for your Conversations API SMS Channel.  Scroll down and *"Edit"* the "Callback URL", paste in the value you copied from your Conversation API App for SMS *Inbound messages*.
+
+<p align="center">
+<img src="./img/sinch_sms_service_plan_callback.png" width="50%" border="2px" />
+</p>
+
+>
+>The URL should look like this: *https://xms-adapter.conversation-api.int.prod.sinch.com/adapter/v1/{{YOUR_APP_ID}}/callback*
+>
 
 Great, you are all set!  You can now use your backend to receive and trigger SMS messages to and from your users!
 
