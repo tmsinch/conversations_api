@@ -1,6 +1,13 @@
+---
+title: Send SMS  
+excerpt: >-
+   Learn how to set up and send a message with SMS and Conversation API.
+hidden: true
+---
+
 
 # Add an SMS Channel to your Conversations API App
-Hello!  For this tutorial you will learn how to add an SMS channel to your Sinch Conversations APi Application.  You can an your SMS channel one of two ways, either programatically via Sinch Conversations API or through the [Sinch online portal](https://dashboard.sinch.com).  Before we begin here are a few items you should already have:
+In this section you will learn how to add an SMS channel to your Sinch Conversations APi Application.  You can an your SMS channel one of two ways, either programatically via Sinch Conversations API or through the [Sinch online portal](https://dashboard.sinch.com).  Before we begin here are a few items you should already have:
 
 1. A text enabled *long code* or a *short code* registered with Sinch.
 2. Access to the Sinch dashboard where you manage your long code or short code.
@@ -80,8 +87,24 @@ Great, you are all set!  You can now use your backend to receive and trigger SMS
 ## Send an SMS Message to a Contact
 To send an SMS message to a Contact via the Sinch Conversations API App send an HTTP POST with the following JSON:
 
-```
-Show how to send a text message to a contact via Conversations API
+```javascript
+curl --location --request POST 'https://api.conversation-api.prod.sinch.com/v1beta/accounts/{{YOUR_ACCOUNT_ID}}/messages:send' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Basic {{YOUR_TOKEN}}' \
+ -d '{
+    "app_id": "{{YOUR_APP_ID}}",
+    "recipient": {
+        "contact_id": "{{YOUR_CONTACT_ID}}"
+    },
+    "message": {
+        "text_message": {
+            "text": "Text message from Sinch Conversation API."
+        }
+    },
+    "channel_priority_order": [
+        "SMS"
+    ]
+}'
 ```
 If you chose to receive *Delivery Receipts* via your Conversations API App webhook you may, depending on the target country or carrier of the message recepient, receive status and delivery receipt updates like the ones below.
 
